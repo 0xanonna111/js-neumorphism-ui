@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #e0e5ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.neo-card {
+  width: 320px;
+  padding: 30px;
+  border-radius: 20px;
+  background: #e0e5ec;
+  box-shadow:
+    9px 9px 16px #a3b1c6,
+    -9px -9px 16px #ffffff;
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background: #e0e5ec;
+  box-shadow:
+    inset 5px 5px 10px #a3b1c6,
+    inset -5px -5px 10px #ffffff;
+  cursor: pointer;
+}
